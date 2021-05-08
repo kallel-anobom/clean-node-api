@@ -1,10 +1,11 @@
 module.exports = {
-  testEnvironment: 'node',
-  collectCoverage: true,
   roots: ['<rootDir>/src'],
-  testPathIgnorePatterns: ['/node_modules/'],
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.ts'
+  ],
+  coverageDirectory: 'coverage',
+  testEnvironment: 'node',
   transform: {
-    '.*\\.ts$': 'ts-jest'
+    '.+\\.ts$': 'ts-jest'
   }
 }
