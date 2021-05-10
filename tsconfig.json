@@ -12,8 +12,5 @@
     "strictBindCallApply": false,
     "noEmit": true,
     "noImplicitAny": false,
-    "pretty": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-  },
+  }
 }
